@@ -1,0 +1,21 @@
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.slider div{
+    width: 80%;
+    margin: 0 5px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 216, 216);
+    font-size: 30px;
+}
+.camerasList{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

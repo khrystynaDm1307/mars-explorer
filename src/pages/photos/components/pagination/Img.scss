@@ -1,0 +1,22 @@
+.imagesBox{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+}
+@media screen and (max-width:350px){
+ img{
+     height: 200px;
+     height: 200px;
+     margin: 5px 0;
+ }
+ .imagesBox{margin: 0;}
+}

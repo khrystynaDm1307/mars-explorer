@@ -1,0 +1,8 @@
+@import '../../App.scss';
+
+.container{
+    background: url(../../mars-landspace.jpg);
+    @include container;
+    @include center-position();
+    @include font()
+}
